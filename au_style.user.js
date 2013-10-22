@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Ask Ubuntu Style
-// @version      0.1
-// @include      http://askubuntu.com/*
+// @name        Ask Ubuntu Style
+// @version     0.1
+// @include     http://askubuntu.com/*
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_xmlhttpRequest
 // @grant       GM_log
-// @grant		GM_getResourceText
-// @copyright    2013+, Radu Rădeanu
-// @resource	   askubuntu_style https://raw.github.com/radu-radeanu/userscripts/master/au_style.css
+// @grant		    GM_getResourceText
+// @copyright   2013+, Radu Rădeanu
+// @resource	  askubuntu_style https://raw.github.com/radu-radeanu/userscripts/master/au_style.css
 // ==/UserScript==
 
 $("head").append('<style type="text/css">' + GM_getResourceText("askubuntu_style") + '</style>');
