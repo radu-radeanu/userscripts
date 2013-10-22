@@ -6,9 +6,9 @@
 // @grant       GM_setValue
 // @grant       GM_xmlhttpRequest
 // @grant       GM_log
-// @grant		    GM_getResourceText
+// @grant       GM_getResourceText
 // @copyright   2013+, Radu Rădeanu
-// @resource	  askubuntu_style https://raw.github.com/radu-radeanu/userscripts/master/au_style.css
+// @resource    askubuntu_style https://raw.github.com/radu-radeanu/userscripts/master/au_style.css
 // ==/UserScript==
 
 $("head").append('<style type="text/css">' + GM_getResourceText("askubuntu_style") + '</style>');
