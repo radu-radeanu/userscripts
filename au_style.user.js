@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Ask Ubuntu Style
 // @version    0.1
-// @match      http://askubuntu.com/*
+// @include      http://askubuntu.com/*
 // @copyright  2013+, Radu Rădeanu
 // @resource	askubuntu_style https://raw.github.com/radu-radeanu/userscripts/master/au_style.css
 // ==/UserScript==
