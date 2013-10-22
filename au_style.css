@@ -1,0 +1,27 @@
+body {
+  /*font-family: Ubuntu,'Bitstream Vera Sans','DejaVu Sans',Tahoma,sans-serif !important;*/
+}
+
+blockquote {
+  /* border-bottom: 1px solid #dd4814 !important;
+  border-top: 1px solid #dd4814 !important; */
+  border-left: 3px solid #dd4814 !important;
+  background-color: #FFEBCC !important
+}
+
+pre{
+  border: 1px solid #aaa !important;
+  border-left: 7px solid #aaa !important;
+}
+#custom-header {
+  display: block;
+  margin-bottom: 2px !important;
+}
+.post-text {
+  /*font-size: 15px;*/
+}
+
+a.comments-link:hover {
+  background-color: #dd4814 !important;
+  color: #fff;
+}
